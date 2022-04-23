@@ -19,10 +19,14 @@ public class Main {
     public static void  task7() {
         int a = 5;
         int b = 7;
-        a = (a*b)/a;
-        b = (a + a + a + a + a) / b;
+        a = a + b;
+        b = b - a;
+        b = -b;
+        a = a - b;
         System.out.println("a = " + a + "; b = " + b);
     }
+
+
     public static void  task8(){
         int a = 486;
         int b = (a % 100) / 10;
